@@ -1,0 +1,62 @@
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-md-4{
+    height: 350px;
+}
+.col-md-4 img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col .card img{
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+#cursos{
+    background-color: #9ac8ff;
+    padding: 1%;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flex a{
+    text-decoration: none;
+}
+.card-group .card img{
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+#contatin{
+    background-color: #9ac8ff;
+    color: black;
+    width: 100%;
+    padding: 1%;
+
+    font-size: 22px;
+    text-align: center;
+}
+#hover:hover{
+    transition: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+#none{
+    border: none;
+}
+#none:hover{
+    transition: 0.5s;
+    transform: scale(1.2, 1.2);
+}
+iframe{
+    height: 220px;
+    width: 1000px;
+}
